@@ -1,11 +1,12 @@
 const acID=1435
 let acEmail="ishita@microsoft.com"
-var acPassword ="12345"
-acCity = "Noida"
+var acPassword ="12345"// let and var both to declare variables, let solves scope problem
+acCity = "Noida"// variable can be declared like this, avoid
 //acID = 2 //not allowed to change const
 console.log(acID);
 acEmail="is@is.com"
 acPassword="2121212121"
 acCity="Delhi"
 console.log(acID)
-console.table(acID,acEmail, acPassword,acCity)
+console.table(acID,acEmail, acPassword,acCity); //;optional
+
