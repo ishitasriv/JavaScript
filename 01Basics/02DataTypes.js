@@ -11,5 +11,5 @@ let isLoggedIn = false
 // booleam ~ true/false
 //null datatype + standalone value
 //undefined 
-// symbol
+// symbol (uniqueness of element)
 console.log(typeof name)
