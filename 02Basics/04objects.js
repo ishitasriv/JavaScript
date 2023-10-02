@@ -4,7 +4,7 @@ console.log(user)
 user.id="123abc"
 user.name ="Sammy"
 user.isLoggedin = false
-//console.log(user)
+//console.log(user) 
 const regUser={
     email: "this@gmail.com",
     fullname:{
@@ -24,3 +24,4 @@ const obj5={...obj1,...obj2}//spread
 console.log(Object.keys(user))
 console.log(Object.values(user))
 console.log(Object.entries(user))
+// earlier API's used to be in XML now it's JSON
