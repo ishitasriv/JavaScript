@@ -23,7 +23,7 @@ let val1;
 //val1 = 5?? 10;
 //val1 = null ?? 10;
 //val1 = undefined ?? 15
-val1 = null ?? 10 ?? 20
+val1 = null ?? 10 ?? 20 // NC will choose 1st value in this case i.e, 10
 console.log(val1);
 
 // Terniary Operator
