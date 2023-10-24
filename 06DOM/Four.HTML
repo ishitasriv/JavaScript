@@ -27,16 +27,16 @@
     }
     addOptiLang("goLang")
     //Edit
-    const secLang = document.querySelector("li:nth-child(2)")
-    //secLang.innerHTML ="Mojo"// not opyimised
-    const newli =document.createElement('li')
-    newli.textContent="Mojo"
-    secLang.replaceWith(newli)
-
-
-
-
-
-
+    const seclang = document.querySelector("li:nth-child(2)")
+    //seclang.innerHTML=("Mojo")
+    const newli = document.createElement('li')
+    newli.textContent ="Mojo"
+    seclang.replaceWith(newli)
+    //edit:
+    const flang = document.querySelector("li:first-child")
+    flang.outerHTML ="<li>TypeScript</li>"
+    //remove
+    const lastlang = document.querySelector("li:last-child")
+    lastlang.remove()
 </script>
 </html>
