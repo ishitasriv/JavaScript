@@ -13,15 +13,16 @@
     <p id  ='demo'></p>
 </body>
 <script>
+  let intervalid;
   const sayDate = function(str){
     console.log(str,Date.now());
   }
-  let intevalid;
+  
   const k = function (){
     intervalid =setInterval(sayDate,1000,'hi');
 }
 const stops= function() {
-clearInterval(intevalid);
+clearInterval(intervalid);
 }
   document.querySelector('#start').addEventListener('click',k)
   document.querySelector('#stop').addEventListener('click', stops)
